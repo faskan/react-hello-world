@@ -1,5 +1,13 @@
 # Getting Started with Create React App
 
+## Docker build
+docker build -t my-react-app .
+
+## Docker run
+docker run -p 80:80 my-react-app
+
+Open your browser in http://localhost
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
